@@ -1,0 +1,77 @@
+ion-content{
+  --background: none;
+  background-image: url('../../assets/background/schlafempfehlung.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+ ion-text{
+      font-family: Ribeye !important;
+     /*    font-size:large;
+      --color: rgb(5, 4, 4); */
+    }
+
+    #container{
+      font-size:30px;
+    }
+
+    #Text1{
+        font-family: Ribeye !important;
+      --color: rgb(255, 255, 255);
+        text-align: center;
+          position: absolute;
+          left: 50%;
+          top: 10%;
+          transform: translateY(-50%);
+        }
+
+    #Text2{
+      font-family: Ribeye !important;
+      --color: rgb(255, 255, 255);
+        text-align: center;
+          position: absolute;
+          left: 50%;
+          top: 30%;
+          transform: translateY(-50%);
+    }
+    
+    #Text3{
+      font-family: Ribeye !important;
+      --color: rgb(255, 255, 255);
+        text-align: center;
+          position: absolute;
+          left: 50%;
+          top: 50%;
+          transform: translateY(-50%);
+    }
+
+    #Text4{
+      font-family: Ribeye !important;
+      --color: rgb(255, 255, 255);
+        text-align: center;
+          position: absolute;
+          left: 50%;
+          top: 70%;
+          transform: translateY(-50%);
+    }
+
+    #Text5{
+      font-family: Ribeye !important;
+      --color: rgb(255, 255, 255);
+        text-align: center;
+          position: absolute;
+          left: 50%;
+          top: 95%;
+          transform: translateY(-50%);
+    }
+
+    #back{
+      position: absolute;
+    top:10%;
+    left:25%;
+    font-size: 450% ;
+    color: white;
+    }
+   
+

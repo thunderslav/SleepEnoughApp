@@ -1,0 +1,76 @@
+ion-content{
+    --background: none;
+    background-image: url('../../assets/background/aufstehzeit.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  ion-text{
+    font-family: Ribeye !important;
+    font-size:large;
+    --Color: white;
+  }
+
+  #Wecken{
+    text-align: center;
+    font-size:30pt;
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    top: 10%;
+    transform: translateY(-50%);
+  }
+
+  #Text1{
+    text-align: center;
+    font-size:30pt;
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    top: 30%;
+    transform: translateY(-50%);
+  }
+
+  #date1{
+    color: white;
+    position: absolute;
+    left: 35%;
+    top: 20.5rem;
+    --background: rgba(196,196,196,0.2);
+    width: 30%;
+    --border-radius: 15px;
+  }
+
+  #Text2{
+    text-align: center;
+    font-size:30pt;
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    top: 70%;
+    transform: translateY(-50%);
+  }
+
+  #date2{
+    color: white;
+    position: absolute;
+    left: 35%;
+    top: 35.5rem;
+    --background: rgba(196,196,196,0.2);
+    width: 30%;
+    --border-radius: 15px;
+    }
+
+    #Werktage{
+        font-family: Ribeye !important;
+  font-size:large;
+  --color: white;
+  }
+
+    #icon2 {
+        position:absolute;
+        top:0.5rem ;
+        left:1%;
+        font-size:100px ;
+      }

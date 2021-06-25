@@ -1,0 +1,101 @@
+ion-content{
+    --background: none;
+    background-image: url('/assets/background/registrieren2UndAnmelden.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size:cover;
+  }
+
+  ion-text{
+    font-family: Ribeye !important;
+    font-size:large;
+    --color: black;
+  }
+
+  ion-button{ 
+    font-family: Ribeye !important;
+    font-size:large;
+    color: rgb(255, 255, 255);
+    --background: rgba(173, 138, 138, 0);
+    --height: 40%;
+    width: 60%;
+
+
+    
+  }
+
+  #Name{
+    font-family: Ribeye !important;
+    font-size:30pt;
+    --color: black;
+    position:absolute;
+    top:5.5rem;
+    left:80%;
+    transform: translateX(-50%);
+    outline-style:solid;
+    outline-offset:1px ;
+    outline-color: black;
+    outline-width:4px ;
+    
+
+  }
+  
+  #E-mail{
+    font-family: Ribeye !important;
+    font-size:30pt;
+    --color: black;
+    position:absolute;
+    top:13rem;
+    left:80%;
+    transform: translateX(-50%);
+    outline-style:solid;
+    outline-offset:1px ;
+    outline-color: black;
+    outline-width:4px ;
+  }
+
+  #Passwort{
+    font-family: Ribeye !important;
+    font-size:30pt;
+    --color: black;
+    position:absolute;
+    top:20rem;
+    left:80%;
+    transform: translateX(-50%);
+    outline-style:solid;
+    outline-offset:1px ;
+    outline-color: black;
+    outline-width:4px ;
+
+  }
+
+  #Checkbox {
+    position:absolute;
+    top:27rem;
+    left:10%;
+    size:50px;
+  }
+  #AGB {
+      font-size:4pt;
+    position:absolute;
+    top:26.2rem;
+    left:20%;
+    color: black;
+  }
+  #icon2 {
+    position:absolute;
+    top:0.5rem ;
+    left:1%;
+    font-size:100px ;
+  }
+  #Button {
+    font-family: Ribeye !important;
+    font-size:large;
+    color: rgb(167, 167, 167);
+    --background:rgba(0, 0, 0, 0.233);
+    --height: 40%;
+    width: 60%;
+    position:absolute;
+    top:37rem ;
+    left:23%;
+  }

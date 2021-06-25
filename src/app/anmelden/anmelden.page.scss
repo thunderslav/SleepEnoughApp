@@ -1,0 +1,70 @@
+/* Der Hintergrund wird hier eingestellt, das Bild dafür ist in unser "assets" Odner hintelegt*/
+
+ion-content{
+    --background: none;
+    background-image: url('../../assets/background/registrieren2UndAnmelden.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+#Name{
+  font-family: Ribeye !important;
+  font-size: 15pt;
+  Color: white;
+  top:5rem;
+  left:55%;
+  transform: translateX(-50%);
+  border-width:5px;
+  outline-style: solid;
+  outline-offset: 1px;
+  border: 1px;
+  outline-color: black;
+}
+
+#Passwort{   
+font-family: Ribeye !important;
+font-size: 15pt;   
+Color: white;
+top:15rem;
+left:55%;   
+transform: translateX(-50%);
+border-width:5px;   
+outline-style: solid; 
+outline-offset: 1px;   
+border: 1px;   
+outline-color: black;     }
+ 
+ion-button{ 
+  font-family: Ribeye !important;
+  font-size:large;
+  color: white;
+  --background: rgba(196,196,196,0.2);
+  --height: 40%;
+  width: 60%;
+}
+
+#Button{
+   font-family: Ribeye !important;
+    font-size:large;
+    color: rgb(167, 167, 167);
+    --background:rgba(0, 0, 0, 0.233);
+    --height: 40%;
+    width: 60%;
+    position:absolute;
+    top:37rem ;
+    left:25%;
+}
+
+#icon {
+    position:absolute;
+    top:0.5rem ;
+    left:1%;
+    font-size:80px ;
+  }
+
+
+
+
+
+

@@ -1,0 +1,16 @@
+ion-content{
+    --background: none;
+    background-image: url('../../assets/background/start.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+#Text1{
+    text-align: center;
+  position: absolute;
+  left: 10%;
+  right: 10%;
+  top: 50%;
+  transform: translateY(-50%);
+}

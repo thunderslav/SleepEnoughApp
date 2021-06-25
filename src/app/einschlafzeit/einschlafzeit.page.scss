@@ -1,0 +1,83 @@
+ion-content{
+    --background: none;
+    background-image: url('../../assets/background/einschlafzeit.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  ion-text{
+    font-family: Ribeye !important;
+    color: white;
+  }
+
+
+  ion-button{ 
+    font-family: Ribeye !important;
+    font-size:large;
+    color: white;
+    --background: rgba(196,196,196,0.2);
+    --height: 40%;
+    width: 60%;
+    --border-radius: 15px;
+  }
+
+#text{
+     font-family: Ribeye !important;
+    font-size:25pt;
+    --color: rgb(255, 255, 255);
+position: absolute;
+left: 10%;
+top: 8rem;
+}
+
+#text1{
+     font-family: Ribeye !important;
+    font-size:30pt;
+    --color: rgb(255, 255, 255);
+position: absolute;
+left: 15%;
+top: 20rem;
+}
+
+#text2{
+     font-family: Ribeye !important;
+    font-size:30pt;
+    --color: rgb(255, 255, 255);
+position: absolute;
+left: 15%;
+top: 30rem;
+}
+
+#date1{
+color: white;
+position: absolute;
+left: 35%;
+top: 20.5rem;
+--background: rgba(196,196,196,0.2);
+width: 30%;
+--border-radius: 15px;
+}
+
+#date2{
+color: white;
+position: absolute;
+left: 35%;
+top: 30.5rem;
+--background: rgba(196,196,196,0.2);
+width: 30%;
+--border-radius: 15px;
+}
+
+#Werktage{
+          font-family: Ribeye !important;
+    font-size:large;
+    --color: white;
+}
+
+  #icon2 {
+    position:absolute;
+    top:0.5rem ;
+    left:1%;
+    font-size:100px ;
+  }

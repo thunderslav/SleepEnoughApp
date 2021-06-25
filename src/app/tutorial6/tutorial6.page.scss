@@ -1,0 +1,44 @@
+ion-content{
+  --background: none;
+  background-image: url('../../assets/background/tutorial.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+ion-text{
+  font-family: Ribeye !important;
+  font-size:20pt;
+  --color: white;
+  
+}
+
+ion-button{ 
+  font-family: Ribeye !important;
+  font-size:large;
+  color: white;
+  --background: rgba(196,196,196,0.2);
+  --height: 40%;
+  width: 60%;
+  --border-radius: 15px;
+}
+#text1{
+  position:absolute;
+  top:2rem;
+  left:50%;
+  transform: translateX(-50%);
+  font-size:40pt ;
+
+}
+#icon2 {
+  position:absolute;
+  top:57rem ;
+  left:1%;
+  font-size:100px ;
+}
+#icon3 {
+  position:absolute;
+  top:57rem ;
+  right:1%;
+  font-size:100px ;
+}
